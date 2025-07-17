@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import { useState } from "react";
-import "react-slidedown/lib/slidedown.css";
 import SlideDown from "./SlideDown";
 
 

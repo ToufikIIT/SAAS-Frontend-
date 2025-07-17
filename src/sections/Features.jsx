@@ -8,7 +8,7 @@ const Features = () => {
     <section>
       <Element name="features">
         <div className="container">
-          <div className="relative flex md:flex-wrap flex-nowrap border-2 border-s3 rounded-7xl md:overflow-hidden max-md:flex-col feature-after md:g7 max-md:border-none max-md:rounded-none max-md:gap-3">
+          <div className="relative flex md:flex-wrap flex-nowrap border-2 border-s3 rounded-4xl md:overflow-hidden max-md:flex-col feature-after md:g7 max-md:border-none max-md:rounded-none max-md:gap-3">
             {features.map(({ id, icon, caption, title, text, button }) => (
               <div
                 key={id}
@@ -35,7 +35,7 @@ const Features = () => {
               </div>
             ))}
 
-            <ul className="relative flex justify-around flex-grow px-[5%] border-2 border-s3 rounded-7xl max-md:hidden">
+            <ul className="relative flex justify-around flex-grow px-[5%] border-2 border-s3 rounded-4xl max-md:hidden">
               <div className="absolute bg-s3/20 top-[38%] left-0 right-0 w-full h-[1px] z-10" />
 
               {details.map(({ id, icon, title }) => (
